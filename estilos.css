@@ -1,0 +1,44 @@
+/* Centraliza o formulário e define largura */
+form {
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* Espaçamento entre os campos do formulário */
+input {
+  margin-bottom: 10px;
+}
+
+/* Esconde botões de ação até que um produto seja selecionado */
+#btnAlterar, #btnRemover, #btnCancelar {
+  display: none;
+}
+
+/* Melhora a aparência do campo de ID */
+#id {
+  background-color: #f1f1f1;
+  color: #888;
+}
+
+/* Efeito de destaque ao passar o mouse na linha da tabela */
+table tr:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+/* Botão "Selecionar" com cor personalizada */
+button.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0a58ca;
+  transition: 0.3s;
+}
+
+button.btn-primary:hover {
+  background-color: #084298;
+}
+
+/* Botões alinhados melhor visualmente */
+form input[type="button"] {
+  margin-right: 10px;
+}
